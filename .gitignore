@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Local labq state and config can hold hostnames and alert topics.
+.labq/
+config.toml
+*.db
+*.db-wal
+*.db-shm
